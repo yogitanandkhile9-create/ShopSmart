@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmart - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛍️ ShopSmart</h1>
+        <p>Your Smart Online Shopping Store</p>
+        <div class="cart-count">
+            🛒 Cart Items: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <section id="products" class="products"></section>
+
+        <section class="cart-section">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+
+            <div class="summary">
+                <p>Subtotal: <span id="subtotal">₹0</span></p>
+                <p>Delivery: <span id="delivery">₹0</span></p>
+                <h3>Total: <span id="total">₹0</span></h3>
+                <button id="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <dialog id="checkout-dialog">
+        <h2>Order Preview</h2>
+        <div id="order-details"></div>
+        <p><strong>This is a demo checkout. No payment will be taken.</strong></p>
+        <button id="close-btn">Close</button>
+    </dialog>
+
+    <footer>
+        <p>© 2026 ShopSmart | Mini E-Commerce Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
